@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(252, 252, 214);
+  position: relative;
+}
+
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quiz-box {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-box button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.quiz-box .option {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.option input[type="radio"] {
+  order: -1;
+  align-items: center;
+}
+
+.container {
+  padding: 30px;
+  width: 80vw;
+  height: 80vh;
+  background-color: #b8b8b8;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.music {
+  width: 300px;
+  height: 400px;
+  background-color: #ff6b6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.selected {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.modern-art {
+  width: 300px;
+  height: 400px;
+  background-color: #7ecc6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.coding {
+  width: 300px;
+  height: 400px;
+  background-color: #6b77ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
